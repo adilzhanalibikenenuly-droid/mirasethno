@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MirasEthno - Catalog</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script defer src="/js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <button class="menu__btn" id="menuBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+            </button>
+
+            <a href="/index.html" class="logo">MirasEthno</a>
+
+            <nav class="desktop__nav">
+                <a href="/index.html" class="desktop__nav-link">Главная</a>
+                <a href="/catalog.html" class="desktop__nav-link active">Схемы</a>
+                <a href="/about.html" class="desktop__nav-link">О мастере</a>
+                <a href="/faq.html" class="desktop__nav-link">FAQ</a>
+                <a href="/contacts.html" class="desktop__nav-link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- МЕНЮ -->
+    <nav class="mobile__menu" id="mobileMenu">
+        <!-- ШАПКА МЕНЮ -->
+        <div class="menu__header">
+            <span class="menu__logo">MirasEthno</span>
+            <button class="menu__close" id="menuClose" aria-label="Закрыть меню"><img src="/imagesformirasethno/mirasethnouielements/x.svg" alt=""></button>
+        </div>
+
+        <!-- СПИСОК МЕНЮ -->
+        <div class="menu__list">
+            <a href="/index.html" class="menu__item">
+                <img src="/imagesformirasethno/mirasethnouielements/house.svg" alt="" class="menu__icon">
+                Главная
+            </a>
+
+            <a href="/catalog.html" class="menu__item active">
+                <img src="/imagesformirasethno/mirasethnouielements/shopping-cart.svg" alt="" class="menu__icon">
+                Схемы
+            </a>
+
+            <a href="/about.html" class="menu__item">
+                <img src="/imagesformirasethno/mirasethnouielements/user.svg" alt="" class="menu__icon">
+                О мастере
+            </a>
+
+            <a href="/faq.html" class="menu__item">
+                <img src="/imagesformirasethno/mirasethnouielements/message-circle-question-mark.svg" alt="" class="menu__icon">
+                FAQ
+            </a>
+
+            <a href="/contacts.html" class="menu__item">
+                <img src="/imagesformirasethno/mirasethnouielements/mail.svg" alt="" class="menu__icon">
+                Контакты
+            </a>
+        </div>
+    </nav>
+
+    <!-- ЗАТЕМНЕНИЕ -->
+    <div class="overlay" id="overlay"></div>
+
+    <main class="catalog">
+
+        <div class="container">
+
+            <h1 class="catalog__title">Схемы для вязания</h1>
+
+            <p class="catalog__description">Откройте для себя коллекцию авторских схем с казахскими орнаментами — от простых и лаконичных до более детализированных и выразительных. Каждая схема продумана так, чтобы процесс вязания был понятным, а результат — аккуратным и эстетичным.</p>
+            
+            <div class="catalog__filters">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="related">Проверенные</button>
+                <button class="filter-btn" data-filter="main">Дизайн-схемы</button>
+                <button class="filter-btn" data-filter="mini">Мини-схемы</button>
+                <button class="filter-btn" data-filter="geometry">Этно-геометрия</button>
+                <button class="filter-btn" data-filter="zhainamaz">Жайнамаз</button>
+            </div>
+
+            <div class="catalog__grid">
+
+                <a href="/products/sholpan.html" class="card" data-category="all main">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productSholpan/sholpan-ai.png" alt="Схема ковра SHOLPAN" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Шолпан</h3>
+                        <p class="card__description">Изящный орнамент, навеянный образом утренней звезды - Шолпан. Создаёт атмосферу гармонии, света и спокойствия в пространстве</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/koktem.html" class="card" data-category="all main">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productKoktem/koktem-ai.png" alt="Схема ковра KOKTEM" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Көктем</h3>
+                        <p class="card__description">Легкий и живой орнамент, вдохновлённый весной и обновлением. Добавляет в интерьер свежесть, мягкость и ощущение уюта.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/bastaugrand.html" class="card" data-category="all main">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productBastaugrand/bastaugrand-ai.png" alt="Схема ковра BASTAU GRAND" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Бастау GRAND</h3>
+                        <p class="card__description">Авторская схема с казахским орнаментом, символизирующим начало и движение вперёд. Создает выразительный акцент в интерьере и наполняет пространство теплом и смыслом.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/bereke.html" class="card" data-category="all main">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productBereke/bereke-ai.jpg" alt="Схема ковра BEREKE" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Береке</h3>
+                        <p class="card__description">Береке выделяется уникальными узорами, наполненными традиционными казахскими мотивами. Создаёт ощущение гармонии и уюта в интерьере.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+                
+                <a href="/products/samal.html" class="card" data-category="all related">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productSamal/samal-ai.jpg" alt="Схема ковра SAMAL" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Самал</h3>
+                        <p class="card__description">Самал вдохновлён лёгкостью ветра и плавными линиями орнамента. Придаёт интерьеру свежесть, спокойствие и ощущение простора.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/samgau.html" class="card" data-category="all mini">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productSamgau/samgau-ai.jpg" alt="Схема ковра SAMGAU" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Самғау</h3>
+                        <p class="card__description">Самғау передаёт ощущение лёгкости и движения через изящные линии орнамента. Добавляет интерьеру динамику, глубину и характер.</p>
+                        <p class="price">2 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/qosornek.html" class="card" data-category="all mini">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productQosornek/qosornek-ai.jpg" alt="Схема ковра QOSORNEK" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Қос өрнек</h3>
+                        <p class="card__description">Қос өрнек — мини-схема с двумя выразительными орнаментами, идеально подходящая для новичков. Простая в исполнении и отлично подходит для первых работ.</p>
+                        <p class="price">2 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/bastau.html" class="card" data-category="all main">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productBastau/bastau-ai.jpg" alt="Схема ковра BASTAU" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Бастау</h3>
+                        <p class="card__description">Бастау — изящная схема с богатым орнаментом и разнообразием расцветок. Создаёт выразительный акцент и наполняет интерьер теплом и глубиной.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/zhibek.html" class="card" data-category="all main">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productZhibek/zhibek-ai.jpg" alt="Схема ковра ZHIBEK" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Жібек</h3>
+                        <p class="card__description">Жібек — минималистичная схема с мягкими линиями и утончённым характером. Идеально вписывается в спокойный и современный интерьер.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/zhailau.html" class="card" data-category="all main">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productZhailau/zhailau-ai.jpg" alt="Схема ковра ZHAILAU" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Жайлау</h3>
+                        <p class="card__description">Жайлау вдохновлён спокойствием степи и плавными природными линиями орнамента. Наполняет интерьер теплом, гармонией и ощущением простора.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/zhasylornek.html" class="card" data-category="all main">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productZhasylornek/zhasylornek-ai.jpg" alt="Схема ковра ZHASYL ORNEK" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Жасыл өрнек</h3>
+                        <p class="card__description">Жасыл өрнек — минималистичная схема с выразительным центральным орнаментом. Создаёт аккуратный акцент и добавляет интерьеру свежесть.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/koktemaru.html" class="card" data-category="all main">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productKoktemaru/koktemaru-ai.jpg" alt="Схема ковра KOKTEM ARU" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Көктем аруы</h3>
+                        <p class="card__description">Көктем аруы — изящная схема с аккуратным и утончённым орнаментом. Придаёт интерьеру лёгкость, нежность и гармонию.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/tekemet.html" class="card" data-category="all related">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productTekemet/tekemet-ai.jpg" alt="Схема ковра TEKEMET" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Текемет</h3>
+                        <p class="card__description">Текемет — богатая схема с крупными орнаментальными блоками и выразительным сочетанием трёх цветов. Создаёт яркий акцент и придаёт интерьеру глубину, тепло и характер.</p>
+                        <p class="price">9 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/akku.html" class="card" data-category="all main">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productAkku/akku-ai.jpg" alt="Схема ковра AKKU" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Аққу</h3>
+                        <p class="card__description">Аққу — минималистичная схема с чистыми линиями и спокойным орнаментом. Придаёт интерьеру лёгкость, порядок и современную эстетику.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+                <a href="/products/terra.html" class="card" data-category="all geometry">
+                    <img src="/imagesformirasethno/mirasethnoproductsimages/productTerra/terra-ai.JPEG" alt="Схема ковра TERRA" class="card__img">
+
+                    <div class="card__content">
+                        <h3 class="card__title">Terra</h3>
+                        <p class="card__description">Terra — современная схема ковра с этнической геометрией и выразительным контрастным орнаментом. Глубокие оттенки и симметричный узор делают её стильным акцентом в интерьере.</p>
+                        <p class="price">4 990 ₸</p>
+                        <span class="card__btn">Перейти</span>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <section class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="footer__brand">
+                        <div class="footer__logo">MirasEthno</div>
+                        <p class="footer__text">
+                            Авторские PDF-схемы ковров в этно-стиле.
+                        </p>
+                    </div>
+
+                   <div class="footer__content">
+                        <div class="footer__nav">
+                            <p class="footer__nav-title">Навигация</p>
+                            <a href="/index.html">Главная</a>
+                            <a href="/catalog.html">Схемы</a>
+                            <a href="/about.html">О мастере</a>
+                            <a href="/faq.html">FAQ</a>
+                            <a href="/contacts.html">Контакты</a>
+                        </div>
+
+                        <div class="footer__contacts">
+                            <p class="footer__contacts-title">Контакты</p>
+                            <a href="https://www.instagram.com/miras.ethno">Instagram</a>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <p>© 2026 MirasEthno. Все права защищены.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

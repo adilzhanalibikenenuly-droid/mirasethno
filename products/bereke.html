@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MirasEthno - Bereke</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script defer src="/js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <button class="menu__btn" id="menuBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+            </button>
+
+            <a href="/index.html" class="logo">MirasEthno</a>
+
+            <nav class="desktop__nav">
+                <a href="/index.html" class="desktop__nav-link">Главная</a>
+                <a href="/catalog.html" class="desktop__nav-link">Схемы</a>
+                <a href="/about.html" class="desktop__nav-link">О мастере</a>
+                <a href="/faq.html" class="desktop__nav-link">FAQ</a>
+                <a href="/contacts.html" class="desktop__nav-link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="mobile__menu" id="mobileMenu">
+        <div class="menu__header">
+            <span class="menu__logo">MirasEthno</span>
+            <button class="menu__close" id="menuClose" aria-label="Закрыть меню"><img src="/imagesformirasethno/mirasethnouielements/x.svg" alt=""></button>
+        </div>
+
+        <div class="menu__list">
+            <a href="/index.html" class="menu__item">
+                <span class="icon">
+                    <img src="/imagesformirasethno/mirasethnouielements/house.svg" alt="">
+                </span>
+                Главная
+            </a>
+
+            <a href="/catalog.html" class="menu__item">
+                <span class="icon">
+                    <img src="/imagesformirasethno/mirasethnouielements/shopping-cart.svg" alt="">
+                </span>
+                Схемы
+            </a>
+
+            <a href="/about.html" class="menu__item">
+                <span class="icon">
+                    <img src="/imagesformirasethno/mirasethnouielements/user.svg" alt="">
+                </span>
+                О мастере
+            </a>
+
+            <a href="/faq.html" class="menu__item">
+                <span class="icon">
+                    <img src="/imagesformirasethno/mirasethnouielements/message-circle-question-mark.svg" alt="">
+                </span>
+                FAQ
+            </a>
+
+            <a href="/contacts.html" class="menu__item">
+                <span class="icon">
+                    <img src="/imagesformirasethno/mirasethnouielements/mail.svg" alt="">
+                </span>
+                Контакты
+            </a>
+        </div>
+    </nav>
+
+    <div class="overlay" id="overlay"></div>
+    
+    <main class="product">
+        <!-- хлебные крошки -->
+        <section class="breadcrumbs">
+            <div class="container">
+                <a href="/catalog.html">Схемы</a>
+                <span>/</span>
+                <span>Береке</span>
+            </div>
+        </section>
+
+        <!-- основной блок -->
+        <section class="product__wrapper">
+            <div class="container">
+
+                <!-- ГАЛЕРЕЯ -->
+                <div class="product__gallery">
+                    <div class="gallery__main">
+                        <img id="mainImage" src="/imagesformirasethno/mirasethnoproductsimages/productBereke/bereke-ai.jpg" alt="BEREKE">
+                    </div>
+
+                    <div class="gallery__thumbs">
+                        <img src="/imagesformirasethno/mirasethnoproductsimages/productBereke/bereke-ai.jpg" alt="BEREKE" class="thumb active">
+                        <img src="/imagesformirasethno/mirasethnoproductsimages/productBereke/berekethumb1.jpg" alt="BEREKE" class="thumb">
+                        <img src="/imagesformirasethno/mirasethnoproductsimages/productBereke/berekethumb2.jpg" alt="BEREKE" class="thumb">
+                    </div>
+                </div>
+
+
+                 <!-- название, цена, характеристики -->
+                <div class="product__description">
+                    <h1 class="product__title">Береке</h1>
+
+                    <p class="product__price" >4 990 ₸</p>
+
+                    <div class="product__characteristics">
+                        <div class="product__row">
+                            <img src="/imagesformirasethno/mirasethnouielements/chart-no-axes-column-increasing.svg" class="product__icon" alt="">
+                            <strong>Сложность: </strong>
+                            <p>Средняя</p>
+                        </div>
+
+                        <div class="product__row">
+                            <img src="/imagesformirasethno/mirasethnouielements/ruler.svg" class="product__icon" alt="">
+                            <strong>Размер: </strong>
+                            <p>150 x 200 см</p>
+                        </div>
+                    </div>
+
+
+                    <!-- описание -->
+                    <p class="product__text">
+                        Схема «Береке» вдохновлена идеей изобилия, уюта и семейного благополучия. Гармоничный узор с мягкими линиями создаёт ощущение порядка и спокойствия, а объёмный рисунок придаёт ковру глубину и выразительность. Такой ковёр наполняет пространство теплом и уютом, становясь не просто декором, а частью атмосферы дома. «Береке» идеально подойдёт для тех, кто ценит смысл, традиции и стремится создать в интерьере ощущение уюта и достатка.
+                    </p>
+
+
+                    <!-- блок -->
+                    <div class="product__block">
+                        <h2 class="product__block-title">Что вы получите</h2>
+
+                        <ul class="product__list">
+                            <li>Сам узор</li>
+                            <li>Ориентировочный размер ковра</li>
+                            <li>Ориентировочный расчет пряжи</li>
+                        </ul>
+                    </div>
+
+
+                    <!-- блок -->
+                    <div class="product__block">
+                        <h2 class="product__block-title">Кому подойдёт</h2>
+
+                        <ul class="product__list">
+                            <li>Новичкам</li>
+                            <li>Тем, кто вяжет первый ковёр</li>
+                            <li>Любителям этно-стиля</li>
+                        </ul>
+                    </div>
+
+
+                    <!-- кнопка-->
+                    <a href="#" class="product__btn" target="_blank">
+                        Купить
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="footer__brand">
+                        <div class="footer__logo">MirasEthno</div>
+                        <p class="footer__text">
+                            Авторские PDF-схемы ковров в этно-стиле.
+                        </p>
+                    </div>
+
+                   <div class="footer__content">
+                        <div class="footer__nav">
+                            <p class="footer__nav-title">Навигация</p>
+                            <a href="/index.html">Главная</a>
+                            <a href="/catalog.html">Схемы</a>
+                            <a href="/about.html">О мастере</a>
+                            <a href="/faq.html">FAQ</a>
+                            <a href="/contacts.html">Контакты</a>
+                        </div>
+
+                        <div class="footer__contacts">
+                            <p class="footer__contacts-title">Контакты</p>
+                            <a href="https://www.instagram.com/miras.ethno">Instagram</a>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <p>© 2026 MirasEthno. Все права защищены.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

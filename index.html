@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MirasEthno</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script defer src="/js/script.js"></script>
+</head>
+<body>
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container">
+            <button class="menu__btn" id="menuBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+            </button>
+            <a href="/index.html" class="logo">MirasEthno</a>
+
+            <nav class="desktop__nav">
+                <a href="/index.html" class="desktop__nav-link active">Главная</a>
+                <a href="/catalog.html" class="desktop__nav-link">Схемы</a>
+                <a href="/about.html" class="desktop__nav-link">О мастере</a>
+                <a href="/faq.html" class="desktop__nav-link">FAQ</a>
+                <a href="/contacts.html" class="desktop__nav-link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- МЕНЮ -->
+    <nav class="mobile__menu" id="mobileMenu">
+        <div class="menu__header">
+            <span class="menu__logo">MirasEthno</span>
+            <button class="menu__close" id="menuClose" aria-label="Закрыть меню">
+                <img src="/imagesformirasethno/mirasethnouielements/x.svg" alt="">
+            </button>
+        </div>
+        <div class="menu__list">
+            <a href="/index.html" class="menu__item active">
+                <img src="/imagesformirasethno/mirasethnouielements/house.svg" alt="" class="menu__icon">
+                Главная
+            </a>
+            <a href="/catalog.html" class="menu__item">
+                <img src="/imagesformirasethno/mirasethnouielements/shopping-cart.svg" alt="" class="menu__icon">
+                Схемы
+            </a>
+            <a href="/about.html" class="menu__item">
+                <img src="/imagesformirasethno/mirasethnouielements/user.svg" alt="" class="menu__icon">
+                О мастере
+            </a>
+            <a href="/faq.html" class="menu__item">
+                <img src="/imagesformirasethno/mirasethnouielements/message-circle-question-mark.svg" alt="" class="menu__icon">
+                FAQ
+            </a>
+            <a href="/contacts.html" class="menu__item">
+                <img src="/imagesformirasethno/mirasethnouielements/mail.svg" alt="" class="menu__icon">
+                Контакты
+            </a>
+        </div>
+    </nav>
+
+    <!-- ЗАТЕМНЕНИЕ -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- ОСНОВА -->
+    <main class="main">
+        <section class="welcome">
+            <div class="container">
+                <p class="welcome__est">EST. 2026</p>
+
+                <h1 class="welcome__title">Схемы для вязания ковров</h1>
+                    
+                <p class="welcome__description">Создавайте уютные и стильные интерьеры своими руками</p>
+
+                <a href="/catalog.html" class="welcome__btn">Перейти к схемам</a>
+            </div>
+        </section>
+
+        <section class="popular">
+            <div class="container">
+                <h2 class="popular__title">Популярные схемы</h2>
+
+                <div class="cards">
+                    <a href="/products/akku.html" class="card">
+                        <img src="/imagesformirasethno/mirasethnoproductsimages/productAkku/akku-ai.jpg" alt="Схема ковра AKKU" class="card__img">
+
+                        <div class="card__content">
+                            <h3 class="card__title">Аққу</h3>
+                            <p class="card__description">Аққу — минималистичная схема с чистыми линиями и спокойным орнаментом. Придаёт интерьеру лёгкость, порядок и современную эстетику.</p>
+                            <p class="price">4 990 ₸</p>
+                            <span class="card__btn">Перейти</span>
+                        </div>
+                    </a>
+
+                    <a href="/products/koktem.html" class="card">
+                        <img src="/imagesformirasethno/mirasethnoproductsimages/productKoktem/koktem-ai.png" alt="Схема ковра KOKTEM" class="card__img">
+
+                        <div class="card__content">
+                            <h3 class="card__title">Көктем</h3>
+                            <p class="card__description">Легкий и живой орнамент, вдохновлённый весной и обновлением. Добавляет в интерьер свежесть, мягкость и ощущение уюта.</p>
+                            <p class="price">4 990 ₸</p>
+                            <span class="card__btn">Перейти</span>
+                        </div>
+                    </a>
+
+                    <a href="/products/sholpan.html" class="card">
+                        <img src="/imagesformirasethno/mirasethnoproductsimages/productSholpan/sholpan-ai.png" alt="Схема ковра SHOLPAN" class="card__img">
+
+                        <div class="card__content">
+                            <h3 class="card__title">Шолпан</h3>
+                            <p class="card__description">Изящный орнамент, навеянный образом утренней звезды - Шолпан. Создаёт атмосферу гармонии, света и спокойствия в пространстве</p>
+                            <p class="price">4 990 ₸</p>
+                            <span class="card__btn">Перейти</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2 class="cta__title">Создайте уют своими руками</h2>
+
+                <p class="cta__description">Получите PDF-схему сразу после оплаты — понятную и удобную для работы</p>
+
+                <a href="/catalog.html" class="cta__btn">
+                    Выбрать схему
+                </a>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="footer__brand">
+                        <div class="footer__logo">MirasEthno</div>
+                        <p class="footer__text">
+                            Авторские PDF-схемы ковров в этно-стиле.
+                        </p>
+                    </div>
+
+                   <div class="footer__content">
+                        <div class="footer__nav">
+                            <p class="footer__nav-title">Навигация</p>
+                            <a href="/index.html">Главная</a>
+                            <a href="/catalog.html">Схемы</a>
+                            <a href="/about.html">О мастере</a>
+                            <a href="/faq.html">FAQ</a>
+                            <a href="/contacts.html">Контакты</a>
+                        </div>
+
+                        <div class="footer__contacts">
+                            <p class="footer__contacts-title">Контакты</p>
+                            <a href="https://www.instagram.com/miras.ethno">Instagram</a>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <p>© 2026 MirasEthno. Все права защищены.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
