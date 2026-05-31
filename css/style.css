@@ -22,12 +22,6 @@ body {
     color: #56423C;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -52,6 +46,10 @@ button {
 
 /* ===== HEADER ===== */
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
     background: #FFFDF5;
     border-bottom: 1px solid #A64B2A1A;
 }

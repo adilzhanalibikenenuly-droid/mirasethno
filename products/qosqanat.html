@@ -13,69 +13,7 @@
     <meta property="og:description" content="Авторские PDF-схемы ковров в казахском этно-стиле.">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <button class="menu__btn" id="menuBtn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
-            </button>
-
-            <a href="/index.html" class="logo">MirasEthno</a>
-
-            <nav class="desktop__nav">
-                <a href="/index.html" class="desktop__nav-link">Главная</a>
-                <a href="/catalog.html" class="desktop__nav-link">Схемы</a>
-                <a href="/about.html" class="desktop__nav-link">О мастере</a>
-                <a href="/faq.html" class="desktop__nav-link">FAQ</a>
-                <a href="/contacts.html" class="desktop__nav-link">Контакты</a>
-            </nav>
-        </div>
-    </header>
-
-    <nav class="mobile__menu" id="mobileMenu">
-        <div class="menu__header">
-            <span class="menu__logo">MirasEthno</span>
-            <button class="menu__close" id="menuClose" aria-label="Закрыть меню"><img src="/imagesformirasethno/mirasethnouielements/x.svg" alt=""></button>
-        </div>
-
-        <div class="menu__list">
-            <a href="/index.html" class="menu__item">
-                <span class="icon">
-                    <img src="/imagesformirasethno/mirasethnouielements/house.svg" alt="">
-                </span>
-                Главная
-            </a>
-
-            <a href="/catalog.html" class="menu__item">
-                <span class="icon">
-                    <img src="/imagesformirasethno/mirasethnouielements/shopping-cart.svg" alt="">
-                </span>
-                Схемы
-            </a>
-
-            <a href="/about.html" class="menu__item">
-                <span class="icon">
-                    <img src="/imagesformirasethno/mirasethnouielements/user.svg" alt="">
-                </span>
-                О мастере
-            </a>
-
-            <a href="/faq.html" class="menu__item">
-                <span class="icon">
-                    <img src="/imagesformirasethno/mirasethnouielements/message-circle-question-mark.svg" alt="">
-                </span>
-                FAQ
-            </a>
-
-            <a href="/contacts.html" class="menu__item">
-                <span class="icon">
-                    <img src="/imagesformirasethno/mirasethnouielements/mail.svg" alt="">
-                </span>
-                Контакты
-            </a>
-        </div>
-    </nav>
-
-    <div class="overlay" id="overlay"></div>
+<div class="header" id="header-placeholder"></div>
     
     <main class="product">
         <!-- хлебные крошки -->
@@ -94,7 +32,7 @@
                 <!-- ГАЛЕРЕЯ -->
                 <div class="product__gallery">
                     <div class="gallery__main">
-                        <img id="mainImage" src="/imagesformirasethno/mirasethnoproductsimages/productKoktemaru/qoaqanat-ai.jpg" alt="QOSQANAT">
+                        <img id="mainImage" src="/imagesformirasethno/mirasethnoproductsimages/productQosqanat/qosqanat-ai.jpg" alt="QOSQANAT">
                     </div>
 
                     <div class="gallery__thumbs">
@@ -113,13 +51,13 @@
                     <div class="product__characteristics">
                         <div class="product__row">
                             <img src="/imagesformirasethno/mirasethnouielements/chart-no-axes-column-increasing.svg" class="product__icon" alt="">
-                            <strong>Сложность: </strong>
+                            <strong>Уровень сложности: </strong>
                             <p id="char-complexity"></p>
                         </div>
 
                         <div class="product__row">
                             <img src="/imagesformirasethno/mirasethnouielements/ruler.svg" class="product__icon" alt="">
-                            <strong>Размер: </strong>
+                            <strong>Ориентировочный размер готового ковра: </strong>
                             <p id="char-size"></p>
                         </div>
                     </div>
@@ -127,7 +65,19 @@
 
                     <!-- описание -->
                     <p class="product__text">
+                        «Қосқанат» в переводе означает «Два крыла». Основной узор напоминает расправленные крылья птицы — символ свободы, движения вперёд и уверенного жизненного пути. Симметричная композиция создаёт ощущение гармонии, внутреннего равновесия и силы духа.<br><br>
 
+                        Этот узор отражает стремление человека к развитию, новым возможностям и открытым дорогам. Плавные линии орнамента словно передают полёт, а традиционные казахские мотивы наполняют изделие глубоким смыслом и национальным характером.<br><br>
+
+                        Особенности схемы:<br>
+                        ✔ Размер ковра — 200 × 280 см<br>
+                        ✔ Крупный выразительный орнамент<br>
+                        ✔ Симметричный узор, удобный для вязания<br>
+                        ✔ Подходит для начинающих и опытных мастериц<br>
+                        ✔ Подробная схема с разметкой по клеткам и цветам<br>
+                        ✔ Ориентировочный расчёт пряжи по цветам<br><br>
+
+                        «Қосқанат» — это не просто ковёр, а символ свободы, открытой дороги и внутренней силы человека, воплощённый в традиционном орнаменте.
                     </p>
 
 
@@ -152,38 +102,7 @@
             </div>
         </section>
 
-        <section class="footer">
-            <div class="container">
-                <div class="footer__top">
-                    <div class="footer__brand">
-                        <div class="footer__logo">MirasEthno</div>
-                        <p class="footer__text">
-                            Авторские PDF-схемы ковров в этно-стиле.
-                        </p>
-                    </div>
-
-                   <div class="footer__content">
-                        <div class="footer__nav">
-                            <p class="footer__nav-title">Навигация</p>
-                            <a href="/index.html">Главная</a>
-                            <a href="/catalog.html">Схемы</a>
-                            <a href="/about.html">О мастере</a>
-                            <a href="/faq.html">FAQ</a>
-                            <a href="/contacts.html">Контакты</a>
-                        </div>
-
-                        <div class="footer__contacts">
-                            <p class="footer__contacts-title">Контакты</p>
-                            <a href="https://www.instagram.com/miras.ethno">Instagram</a>
-                        </div>
-                   </div>
-                </div>
-
-                <div class="footer__bottom">
-                    <p>© 2026 MirasEthno. Все права защищены.</p>
-                </div>
-            </div>
-        </section>
+<div id="footer-placeholder"></div>
     </main>
 </body>
 </html>
