@@ -59,6 +59,16 @@ const productsData = {
         complexity: "Средний",
         size: "110 x 140 см"
     },
+    "qazyna": {
+        title: "Қазына",
+        price: "5 990 ₸",
+        image: "/imagesformirasethno/mirasethnoproductsimages/productQazyna/qazyna-ai.jpg",
+        category: "all main",
+        popular: false,
+        description: "«Қазына» в переводе с казахского означает «сокровище», «богатство», «ценное наследие».",
+        complexity: "Средний",
+        size: "155 x 180 см"
+    },
     "qosornek": {
         title: "Қос өрнек",
         price: "3 990 ₸",
