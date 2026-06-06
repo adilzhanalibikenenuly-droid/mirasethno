@@ -32,7 +32,7 @@ const productsData = {
     "bereke": {
         title: "Береке",
         price: "5 990 ₸",
-        image: "/imagesformirasethno/mirasethnoproductsimages/productBereke/bereke-ai.png",
+        image: "/imagesformirasethno/mirasethnoproductsimages/productBereke/bereke-ai.jpg",
         category: "all main",
         popular: false,
         description: "«Береке» в переводе с казахского означает «изобилие», «достаток», «благополучие». Орнамент ковра символизирует процветание семьи, гармонию в доме и приумножение добра.",
