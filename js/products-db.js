@@ -59,16 +59,6 @@ const productsData = {
         complexity: "Средний",
         size: "110 x 140 см"
     },
-    "qazyna": {
-        title: "Қазына",
-        price: "5 990 ₸",
-        image: "/imagesformirasethno/mirasethnoproductsimages/productQazyna/qazyna-ai.jpg",
-        category: "all main",
-        popular: false,
-        description: "«Қазына» в переводе с казахского означает «сокровище», «богатство», «ценное наследие».",
-        complexity: "Средний",
-        size: "155 x 180 см"
-    },
     "qosornek": {
         title: "Қос өрнек",
         price: "3 990 ₸",
@@ -178,16 +168,6 @@ const productsData = {
         description: "«Жасыл өрнек» в переводе означает «Зелёный узор». Центральный орнамент напоминает молодой росток или древо жизни, символизируя рост, обновление, жизненную силу и процветание.",
         complexity: "Средний",
         size: "110 x 130 см"
-    },
-    "zhasylzhailau": {
-        title: "Жасыл жайлау",
-        price: "5 990 ₸",
-        image: "/imagesformirasethno/mirasethnoproductsimages/productZhasylzhailau/zhasylzhailau-ai.jpg",
-        category: "all main",
-        popular: false,
-        description: "«Жасыл жайлау» в переводе с казахского означает «Зелёное пастбище». Узор вдохновлён бескрайними степями, свежестью природы и спокойствием родной земли.",
-        complexity: "Средний",
-        size: "150 x 230 см"
     },
     "zhibek": {
         title: "Жібек",
